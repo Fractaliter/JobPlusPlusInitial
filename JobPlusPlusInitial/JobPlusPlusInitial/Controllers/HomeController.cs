@@ -27,6 +27,14 @@ namespace JobPlusPlusInitial.Controllers
         {
             return View();
         }
+        public IActionResult Members()
+        {
+            return View();
+        }
+        public IActionResult Companies()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
