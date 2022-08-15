@@ -31,6 +31,9 @@ namespace JobPlusPlusInitial.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(256)")
                         .HasMaxLength(256);
@@ -43,6 +46,9 @@ namespace JobPlusPlusInitial.Migrations
 
                     b.Property<string>("LastName")
                         .HasColumnType("nvarchar(100)");
+
+                    b.Property<DateTime>("LastUpdateDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
@@ -116,6 +122,34 @@ namespace JobPlusPlusInitial.Migrations
                     b.HasKey("CompanyId");
 
                     b.ToTable("Companies");
+                });
+
+            modelBuilder.Entity("JobPlusPlusInitial.Models.University", b =>
+                {
+                    b.Property<int>("UniversityId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("LastUpdateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("TechnologyLevelId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UniversityName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UniversityId");
+
+                    b.ToTable("Universities");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

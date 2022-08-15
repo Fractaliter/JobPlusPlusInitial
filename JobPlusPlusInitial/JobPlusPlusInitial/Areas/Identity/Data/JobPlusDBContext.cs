@@ -17,6 +17,7 @@ namespace JobPlusPlusInitial.Data
         {
         }
         public DbSet<Company> Companies { get; set; }
+        public DbSet<University> Universities { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

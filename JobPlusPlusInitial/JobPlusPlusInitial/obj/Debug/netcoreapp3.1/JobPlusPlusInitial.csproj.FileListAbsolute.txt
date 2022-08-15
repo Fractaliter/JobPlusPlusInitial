@@ -176,3 +176,14 @@ D:\Projects\JobPlusInitial\JobPlusInitial\JobPlusPlusInitial\JobPlusPlusInitial\
 D:\Projects\JobPlusInitial\JobPlusInitial\JobPlusPlusInitial\JobPlusPlusInitial\obj\Debug\netcoreapp3.1\Razor\Views\Company\Details.cshtml.g.cs
 D:\Projects\JobPlusInitial\JobPlusInitial\JobPlusPlusInitial\JobPlusPlusInitial\obj\Debug\netcoreapp3.1\Razor\Views\Company\Edit.cshtml.g.cs
 D:\Projects\JobPlusInitial\JobPlusInitial\JobPlusPlusInitial\JobPlusPlusInitial\obj\Debug\netcoreapp3.1\Razor\Views\Company\Index.cshtml.g.cs
+D:\Projects\JobPlusInitial\JobPlusInitial\JobPlusPlusInitial\JobPlusPlusInitial\obj\Debug\netcoreapp3.1\Razor\Views\Home\Universities.cshtml.g.cs
+D:\Projects\JobPlusInitial\JobPlusInitial\JobPlusPlusInitial\JobPlusPlusInitial\obj\Debug\netcoreapp3.1\Razor\Views\University\Create.cshtml.g.cs
+D:\Projects\JobPlusInitial\JobPlusInitial\JobPlusPlusInitial\JobPlusPlusInitial\obj\Debug\netcoreapp3.1\Razor\Views\University\Delete.cshtml.g.cs
+D:\Projects\JobPlusInitial\JobPlusInitial\JobPlusPlusInitial\JobPlusPlusInitial\obj\Debug\netcoreapp3.1\Razor\Views\University\Details.cshtml.g.cs
+D:\Projects\JobPlusInitial\JobPlusInitial\JobPlusPlusInitial\JobPlusPlusInitial\obj\Debug\netcoreapp3.1\Razor\Views\University\Edit.cshtml.g.cs
+D:\Projects\JobPlusInitial\JobPlusInitial\JobPlusPlusInitial\JobPlusPlusInitial\obj\Debug\netcoreapp3.1\Razor\Views\University\Index.cshtml.g.cs
+D:\Projects\JobPlusInitial\JobPlusInitial\JobPlusPlusInitial\JobPlusPlusInitial\obj\Debug\netcoreapp3.1\Razor\Views\User\Create.cshtml.g.cs
+D:\Projects\JobPlusInitial\JobPlusInitial\JobPlusPlusInitial\JobPlusPlusInitial\obj\Debug\netcoreapp3.1\Razor\Views\User\Delete.cshtml.g.cs
+D:\Projects\JobPlusInitial\JobPlusInitial\JobPlusPlusInitial\JobPlusPlusInitial\obj\Debug\netcoreapp3.1\Razor\Views\User\Details.cshtml.g.cs
+D:\Projects\JobPlusInitial\JobPlusInitial\JobPlusPlusInitial\JobPlusPlusInitial\obj\Debug\netcoreapp3.1\Razor\Views\User\Edit.cshtml.g.cs
+D:\Projects\JobPlusInitial\JobPlusInitial\JobPlusPlusInitial\JobPlusPlusInitial\obj\Debug\netcoreapp3.1\Razor\Views\User\Index.cshtml.g.cs

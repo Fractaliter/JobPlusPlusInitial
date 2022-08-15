@@ -18,5 +18,12 @@ namespace JobPlusPlusInitial.Areas.Identity.Data
         [Column(TypeName = "nvarchar(100)")]
         public string LastName { get; set; }
 
+        public DateTime CreatedDate { get; set; }
+        public DateTime LastUpdateDate { get; set; }
+        public ApplicationUser()
+        {
+            this.CreatedDate = DateTime.UtcNow;
+            this.LastUpdateDate = DateTime.UtcNow;
+        }
     }
 }
